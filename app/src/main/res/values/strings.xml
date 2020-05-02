@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SMKCoding_Project1</string>
+    <string-array name="jenis_kelamin">
+        <item>Pilih jenis kelamin</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
 </resources>
