@@ -25,6 +25,16 @@ class MainActivity : AppCompatActivity() {
 
     private fun goToProfilActivity() {
         val intent = Intent(this, ProfilActivity::class.java)
+
+        val bundle = Bundle()
+        bundle.putString("nama", namaInput)
+        bundle.putString("gender", genderInput)
+        bundle.putString("email", emailInput)
+        bundle.putString("telp", telpInput)
+        bundle.putString("alamat", alamatInput)
+
+        intent.putExtras(bundle)
+
         startActivity(intent)
     }
 
